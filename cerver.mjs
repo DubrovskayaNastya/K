@@ -52,7 +52,7 @@ const verifyToken = (req, res, next) => {
 
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'kerosene.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Получение данных
